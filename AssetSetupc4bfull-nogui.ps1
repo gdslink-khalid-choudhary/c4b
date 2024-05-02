@@ -4,7 +4,3 @@
 
 Set-ExecutionPolicy Bypass -Scope Process -Force
 iex ((New-Object System.Net.WebClient).DownloadString("C:\Register-C4bEndpointnogui.ps1"))
-
-## Windows Features
-dism.exe /online /enable-feature /featurename:NetFX3 /all
-dism.exe /online /enable-feature /featurename:NetFX4 /all
