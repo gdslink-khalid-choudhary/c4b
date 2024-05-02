@@ -1,1 +1,0 @@
-iex ((New-Object System.Net.WebClient).DownloadString('C:\WorkspaceSetupc4bfull-nogui.ps1'))
